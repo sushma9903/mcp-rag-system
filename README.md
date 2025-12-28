@@ -273,9 +273,9 @@ These choices prioritize correctness and explainability.
 ## 📚 Resources
 
 - [LangChain Docs](https://python.langchain.com/)
+- [LangChain Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)
 - [MCP Protocol](https://modelcontextprotocol.io/)
 - [FAISS Documentation](https://faiss.ai/)
-- [Groq API](https://console.groq.com/docs)
 - [Sentence Transformers](https://www.sbert.net/)
 
 ---
