@@ -1,15 +1,3 @@
-Perfect — this clarifies it very well.
-Below is a **fresh, from-scratch README** written in a **high-level, professional format**, with:
-
-* Clear **structure**
-* **Appropriate, restrained emojis only in headers**
-* A **clean, correct architecture diagram**
-* Tone of a **junior engineer who understands the system deeply**
-* Nothing flashy, nothing “marketing”
-* Everything a **proper README is expected to contain**
-
-You can directly use this.
-
 ---
 
 # RAG System with MCP Integration
@@ -61,7 +49,7 @@ If the information is not present in the knowledge base, the system clearly stat
                             │
                             ▼
 ┌────────────────────────────────────────────┐
-│           Conversational Agent              │
+│           Conversational Agent             │
 │                (agent.py)                  │
 │                                            │
 │  • Handles user interaction                │
@@ -76,7 +64,7 @@ If the information is not present in the knowledge base, the system clearly stat
 │                                            │
 │  • Document loading                        │
 │  • Text chunking                           │
-│  • Embedding generation                   │
+│  • Embedding generation                    │
 │  • Similarity-based retrieval              │
 └───────────────────────────┬────────────────┘
                             │
@@ -84,10 +72,10 @@ If the information is not present in the knowledge base, the system clearly stat
             │                               │
             ▼                               ▼
 ┌────────────────────────────┐   ┌──────────────────────────┐
-│        FAISS Vector DB      │   │        Groq LLM           │
-│                            │   │  (Llama 3.3 70B)          │
-│  • Stores embeddings       │   │  • Generates answers      │
-│  • Similarity search       │   │  • Uses retrieved context │
+│        FAISS Vector DB     │   │        Groq LLM          │
+│                            │   │  (Llama 3.3 70B)         │
+│  • Stores embeddings       │   │ • Generates answers      │
+│  • Similarity search       │   │ • Uses retrieved context │
 └────────────────────────────┘   └──────────────────────────┘
 ```
 
